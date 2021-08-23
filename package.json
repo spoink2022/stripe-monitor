@@ -1,0 +1,27 @@
+{
+  "name": "stripe-monitor",
+  "version": "1.0.0",
+  "description": "A node.js process with maximized uptime that handles transaction webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoink2022/stripe-monitor.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoink2022/stripe-monitor/issues"
+  },
+  "homepage": "https://github.com/spoink2022/stripe-monitor#readme",
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
